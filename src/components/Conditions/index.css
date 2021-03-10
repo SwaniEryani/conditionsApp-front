@@ -1,0 +1,45 @@
+.SingleCondition-container{
+  width: 90%;
+  margin: 50px ;
+}
+.SingleCondition-body > label{
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin: 10px;
+}
+.SingleCondition-label{
+  width: 100%;
+  text-align: center;
+}
+.SingleCondition-label >h2{
+ margin: 10px;
+ font-size: 2rem;
+}
+.SingleCondition-wrap{
+  border: 0px solid #ccc;
+}
+.SingleCondition-row{
+  display: flex;
+  flex-direction: row;
+}
+.SingleCondition-img{
+  position: relative ;
+}
+.SingleCondition-card-label{
+  margin: 10px;
+}
+.SingleCondition-snippet{
+  margin: 10px;
+
+}
+.SingleCondition-btn{
+  text-align: center;
+  margin: 1rem;
+}
+
+@media screen and (max-width: 680px){
+  .SingleCondition-row{
+    display: flex;
+    flex-direction: column;
+  }
+}

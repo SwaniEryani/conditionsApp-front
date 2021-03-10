@@ -1,0 +1,29 @@
+.Search-container{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.Search-row{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.Search-col > input{
+  border: none;
+  width: 25rem;
+  height: 2rem;
+}
+.Search-col > button{
+  border: none;
+  height: 2rem;
+}
+
+@media screen and (max-width: 680px){
+  .Search-col > input{
+    border: none;
+    background-color: #ccc;
+    width: 15rem;
+    height: 2rem;
+    justify-self: center;
+  }
+}
